@@ -1,11 +1,23 @@
+.navigation {
+    background-color: #f8f8f8;
 .navbar {
  font-size: em(18px);
 
 .lengs {
-    &--dropdown {
-        width: fit-content;
-        min-width: unset;
-        text-align: center;
-     }
+        &--dropdown {
+            width: fit-content;
+            min-width: unset;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+            border: none;
+      }
+    }
+    .nav-item {
+        &:hover, &.active { 
+            background-color: #e7e7e7;
+        }
+    
+    }
   }
 }
