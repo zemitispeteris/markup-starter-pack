@@ -1,6 +1,8 @@
 
-@include font-face('icomoon');
 @include font-face('OLNEYb');
+@include font-face('NBAr');
+
+
 
 
 [class^="icon-"], [class*=" icon-"] {
@@ -15,8 +17,4 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-html {
-    @include font-size-map($body-font-size);
-    height: 100%;
-}
 

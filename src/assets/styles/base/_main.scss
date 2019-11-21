@@ -4,6 +4,12 @@
 
 }
 
+html {
+  @include font-size-map($body-font-size);
+  height: 100%;
+}
+
+
 body {
   -webkit-font-smoothing: antialiased;
   min-height: 100%;
