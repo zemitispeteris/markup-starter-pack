@@ -1,0 +1,12 @@
+.f {
+  @each $font-family in $font-families {
+    &-#{$font-family} {
+      font-family: $font-family;
+    }
+  }
+}
+
+
+@function pxtoem($pixels) {
+  @return #{$pixels / 16 / 2.2}em;
+}
