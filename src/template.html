@@ -1,17 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Markup Starter</title>
-  </head>
-  <body>
-     <div class="container">
-       <div class="row">
-         <div class="" style="background: red; height: 500px;">
-           <button class="btn-success">asdas</button>
-         </div>
-       </div>
-     </div>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Markup Starter</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <nav class="navbar navbar-expand-md navbar-light">
+          <a class="navbar-brand" href="#">Logo</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar"
+            aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="mainNavbar">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">მთავარი</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">კონფიდენციალურობა</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">ჩვენს შესახებ</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav lengs ml-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="langsDropdown" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">ენა</a>
+                  <div class="dropdown-menu lengs--dropdown" aria-labelledby="langsDropdown">
+                    <a class="dropdown-item" href="#">ქარ</a>
+                    <a class="dropdown-item" href="#">ინგ</a>
+                  </div>
+                </li>
+              </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</body>
 </html>

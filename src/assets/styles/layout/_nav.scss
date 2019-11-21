@@ -1,0 +1,11 @@
+.navbar {
+ font-size: em(18px);
+
+.lengs {
+    &--dropdown {
+        width: fit-content;
+        min-width: unset;
+        text-align: center;
+     }
+  }
+}
